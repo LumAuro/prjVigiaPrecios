@@ -1,8 +1,6 @@
 -- encabezado--
-body {
-    padding-bottom: 20px;
-  }
-  
+body 
+
   .navbar {
     margin-bottom: 20px;
   }
@@ -109,4 +107,6 @@ body {
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+      
     

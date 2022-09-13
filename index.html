@@ -6,39 +6,49 @@
     <link rel="StyleSheet" href="proy.css" />
     <link rel="icon" href="img/logo.jpg">
     <script src="proy.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </head>
 
   <body>
-      <div>
-        <br/>
-          <img src="img/logo.jpg" width="400" height="300" />
-          </div>
-          <div>
-            <br/>
-            <a href="Registro.html" target="_blank">Registro</a>
-            <a href="Login.html" target="_blank">Ingresar</a>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Cotiza.png" class="d-block w-100" alt="Antes de salir" width="100px" height="200px">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Tenderos.png" class="d-block w-100" alt="Cotiza"width="100px" height="200px">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Antes.png" class="d-block w-100" alt="Consulta precios" width="100px" height="200px">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+       <div>
+          <a href="Registro.html" class="btn btn-primary">Registro</a>
+            <a href="Login.html" class="btn btn-primary">Ingresar</a>
             </div>
-            <br/>
-                <br/>
-                <h2>
-                    Esta herramienta ha sido diseñada para ayudarte en tu proceso de compra
-                </h2>
-                <div>
-                  <br/>
-                    <a href="Resultado.html" target="_blank">
+               <div>
+                  <a href="Resultado.html" class="btn btn-default">
                     <label for="consulta" >Consulta Producto: </label>
-                    <input type="text" name="consulta" id="consulta" />
-                    </a>
-                    
-                    
+                    <input type="text" name="consulta" id="consulta" /></a>          
                 </div>
-                <br/>
-                <br/>
-              <footer class="text-muted py-5">
-                <div class="container">
-                    <p class="mb-1">Vigia de precios &copy; https://github.com/LumAuro/prjVigiaPrecios.</p>
-                    <p>"Misión TIC2022 y Universidad Tenologica de Pereira".</p>
-                  </div>
-              </footer>      
-  </body>
+              <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        </body>
 </html>
