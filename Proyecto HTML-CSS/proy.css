@@ -14,7 +14,12 @@ body
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+    }
+    -- .carousel, .carousel-inner>.item>img{
+      height: 50px !important;
+      object-fit: cover;
       }
+      
 
       .b-example-divider {
         height: 3rem;
